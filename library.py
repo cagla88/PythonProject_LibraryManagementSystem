@@ -4,6 +4,7 @@ class Library:
         self.file = open(self.file_name, "a+")
 
         # to make the text colorful
+        # (please set up colorama in your machine in terminal with 'pip install colorama' command)
         from colorama import init, Fore
         init()
         self.Fore = Fore
